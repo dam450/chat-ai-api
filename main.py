@@ -27,7 +27,7 @@ app.include_router(chat.router)
 
 def main():
     print("Hello from chat-ai-api!")
-    uvicorn.run("main:app")
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
 
 
 if __name__ == "__main__":
