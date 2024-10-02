@@ -1,0 +1,13 @@
+[project]
+name = "chat-ai-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckduckgo-search>=6.2.13",
+    "fastapi[standard]>=0.115.0",
+    "python-dotenv>=1.0.1",
+    "secure>=1.0.0",
+    "uvicorn>=0.31.0",
+]
