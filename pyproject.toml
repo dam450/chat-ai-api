@@ -10,23 +10,3 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "uvicorn>=0.31.0",
 ]
-
-[tool.poetry]
-name = "chat-ai-api"
-version = "0.1.0"
-description = ""
-authors = ["Evandro <dam450@duck.com>"]
-readme = "README.md"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.12"
-duckduckgo-search = "^6.2.13"
-fastapi = {extras = ["standard"], version = "^0.115.0"}
-python-dotenv = "^1.0.1"
-uvicorn = "^0.31.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
