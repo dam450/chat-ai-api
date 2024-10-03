@@ -44,7 +44,6 @@ dependencies = [
     { name = "duckduckgo-search" },
     { name = "fastapi", extra = ["standard"] },
     { name = "python-dotenv" },
-    { name = "secure" },
     { name = "uvicorn" },
 ]
 
@@ -53,7 +52,6 @@ requires-dist = [
     { name = "duckduckgo-search", specifier = ">=6.2.13" },
     { name = "fastapi", extras = ["standard"], specifier = ">=0.115.0" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
-    { name = "secure", specifier = ">=1.0.0" },
     { name = "uvicorn", specifier = ">=0.31.0" },
 ]
 
@@ -396,15 +394,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b3/78/87d00a1df7c457ad9aa0139f01b8a11c67209f27f927c503b0109bf2ed6c/rich-13.9.1.tar.gz", hash = "sha256:097cffdf85db1babe30cc7deba5ab3a29e1b9885047dab24c57e9a7f8a9c1466", size = 222907 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ab/71/cd9549551f1aa11cf7e5f92bae5817979e8b3a19e31e8810c15f3f45c311/rich-13.9.1-py3-none-any.whl", hash = "sha256:b340e739f30aa58921dc477b8adaa9ecdb7cecc217be01d93730ee1bc8aa83be", size = 242147 },
-]
-
-[[package]]
-name = "secure"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f8/15/d542b57612612d53a7b8bec468fade847173ab6f4dfd6026b640ff3a7648/secure-1.0.0.tar.gz", hash = "sha256:f9bf274681bc22b8b37df0ee8985d9972ee96409899d60560d373aa39c43b23c", size = 21216 }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7a/24/f70c4bf5cc9701bb64a231901a600424979794e5ec3843104538d78e9a74/secure-1.0.0-py3-none-any.whl", hash = "sha256:a82f57d23186a8d64ef6729d510a9e95ab0c4500f2d6bbf5cfc7f7675ca32564", size = 26417 },
 ]
 
 [[package]]
