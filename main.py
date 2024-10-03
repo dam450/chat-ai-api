@@ -10,7 +10,14 @@ load_dotenv()
 
 app = FastAPI(title="chat-ai-api", version="0.1.0", description="it is an Chat AI API")
 
-origins = os.getenv("ALLOWED_HOSTS").split(",")
+origins = os.getenv("ALLOWED_HOSTS")
+
+if origins is None:
+    origins = ["*"]
+else:
+    origins = origins.split(",")
+    origins = [origin.strip() for origin in origins]
+
 
 app.add_middleware(
     CORSMiddleware,
